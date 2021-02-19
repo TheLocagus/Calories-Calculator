@@ -1,0 +1,20 @@
+.menu{
+    background-color: rgb(24, 233, 233);
+    flex-basis: 8%;
+    &__login-button{
+        display: block;
+        margin: 25px auto;
+        padding: 5px 20px;
+        color: rgb(41, 44, 43);
+        background-color: rgba(231, 113, 3, 0.842);
+        border: 1px solid black;
+        cursor: pointer;
+    }
+    &__login-button:hover{
+        color: rgb(24, 233, 233);
+    }
+    &__login-button:focus{
+        outline: none;
+        box-shadow: none;
+    }
+}

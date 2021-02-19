@@ -1,0 +1,64 @@
+.meal{
+    position: relative;
+    background-color: #444;
+
+    &__title{
+        display: flex;
+        background-color: #111;
+
+    }
+    &__title_name{
+        flex-grow: 1;
+        text-align: left;
+        color: rgb(211, 200, 200);
+        line-height: 20px;
+        margin-left: 20px;
+        padding: 10px 0;
+    }
+    &__title_button{
+        margin-right: 10px;
+        width: 20px;
+        height: 20px;
+        font-size: 10px;
+        align-self: center;
+        background-color: #000;
+        border: 1px solid white;
+        color: white;
+        cursor: pointer;
+    }
+    &__title_button:focus{
+        outline: none;
+        box-shadow: none;
+    }
+    &__title_button:hover{
+        background-color: #fff;
+        border: 1px solid black;
+        color: black;
+    }
+    &__add{
+        width:100%;
+        height: 100%;
+        padding: 5px 0;
+        background-color: #444;
+    }
+    &__add_button{
+        display: block;
+        text-align: left;
+        padding: 3px 10px;
+        margin-left: 5px;
+        background-color: #000;
+        border: 2px solid white;
+        color: white;
+        cursor: pointer;
+    }
+    &__add_button:focus{
+        outline: none;
+        box-shadow: none;
+    }
+    &__add_button:hover{
+        background-color: #fff;
+        border: 2px solid black;
+        color: black;
+    }
+    
+}

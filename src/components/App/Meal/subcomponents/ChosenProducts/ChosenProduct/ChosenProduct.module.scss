@@ -1,0 +1,85 @@
+.chosen-product{
+    display: flex;
+    padding-bottom: 5px;
+    border-bottom: 1px solid black;
+
+    &__amount{
+        flex-basis: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__product-details{
+        display: flex;
+        flex-direction: column;
+        flex-basis: 90%;
+    }
+    &__top{
+        display: flex;
+    }
+    &__product-name{
+        flex-basis: 80%;
+        margin-left: 15px;
+        padding: 5px 0;
+    }
+    &__buttons{
+        flex-basis: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        
+    }
+    &__mid{
+        margin-left: 15px;
+    }
+    &__edit-input{
+        background-color: #333;
+        border: 1px solid black;
+        padding: 3px;
+        color: #aaa;
+    }
+    &__edit-input:focus{
+        outline: none;
+        box-shadow: none;
+    }
+    &__bot{
+        margin-left: 15px;
+    }
+    &__edit-button{
+        background-color: #111;
+        color: white;
+        border: 1px solid white;
+        padding: 3px 10px;
+        margin-right: 5px;
+        cursor: pointer;
+    }
+    &__cancel-button{
+        background-color: #111;
+        color: white;
+        border: 1px solid white;
+        padding: 3px 10px;
+        cursor: pointer;
+    }
+    &__edit-button:hover{
+        background-color: white;
+        color: black;
+        border: 1px solid black;
+    }
+    &__cancel-button:hover{
+        background-color: white;
+        color: black;
+        border: 1px solid black;
+    }
+    &__edit-button:focus{
+        outline: none;
+        box-shadow: none;
+    }
+    &__cancel-button:focus{
+        outline: none;
+        box-shadow: none;
+    }
+}
+
+.chosen-product:nth-last-child(1){
+    border-bottom: none;
+}

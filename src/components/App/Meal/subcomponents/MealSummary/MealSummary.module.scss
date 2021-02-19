@@ -1,0 +1,14 @@
+.meal-summary{
+    color: rgb(255, 255, 255);
+    display: flex;
+    padding: 10px 0;
+    &__calories{
+        margin: 0 10px;
+    }
+    &__makros{
+        display: flex;
+    }
+    &__makros-details{
+        margin: 0 5px;
+    }
+}
